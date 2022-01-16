@@ -21,7 +21,8 @@ public class UploadFileRobotClass {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-
+		
+		
 		driver.get("http://the-internet.herokuapp.com/upload");
 
 		driver.findElement(By.xpath("//div[@id='drag-drop-upload']")).click();
