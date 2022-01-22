@@ -18,7 +18,7 @@ public class ReadingPropertiesfromJenkins {
 
 		String userName=System.getProperty("userName");
 		String password=System.getProperty("password");
-		String finalUrl= "https://"+userName+password+"@the-internet.herokuapp.com/basic_auth";
+		String finalUrl= "https://"+userName+":"+password+"@the-internet.herokuapp.com/basic_auth";
 
 		System.out.println("Constructed URL is : "+finalUrl);
 
